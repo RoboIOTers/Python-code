@@ -1,3 +1,4 @@
+import streamlit as st
 import random
 def play_game():
     goal =random.randint(1,100)
