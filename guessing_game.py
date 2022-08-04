@@ -17,7 +17,7 @@ def play_game():
 
         st.write("Congratulations!!{} you have guessed the secret number Correctly\n ".format(name))
         st.write("you took total of {} atempts to correctly guess the number\n".format(steps))
-     except:
+    except:
         pass
 play_game()
 choice = st.text_input("Enter 1 to play again any other input to quit \n\n")
